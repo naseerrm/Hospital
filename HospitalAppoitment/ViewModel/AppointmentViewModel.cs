@@ -11,6 +11,7 @@ namespace HospitalAppoitment.ViewModel
         public int DoctorId { get; set; }
         public string Address { get; set; }
         public string PatientPhoneNumber { get; set; }
-        public string StatusMessage { get; set; }
+        public string? StatusMessage { get; set; }
+        public string? DoctorName { get; set; }
     }
 }

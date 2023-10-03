@@ -194,6 +194,7 @@ namespace HospitalAppoitment.Controllers
                 Start = appointmentSlot.Start.ToString("dd-MM-yyyy hh:mm tt"),
                 End = appointmentSlot.End.ToString("dd-MM-yyyy hh:mm tt"),
                 DoctorId = appointmentSlot.DoctorId,
+                DoctorName = appointmentSlot.Doctor.DoctorName,
                 Address = appointmentSlot.Address,
                 PatientPhoneNumber = appointmentSlot.PatientPhoneNumber,
                 AppoitmentId = appointmentSlot.Id
